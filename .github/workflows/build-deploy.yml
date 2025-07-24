@@ -6,7 +6,7 @@ jobs:
   build:
 
     env:
-      DATABASE_HOSTNAME: localhost
+      DATABASE_HOSTNAME: 127.0.0.1
       DATABASE_PORT: 5432
       DATABASE_PASSWORD: 123456
       DATABASE_NAME: fastapi
